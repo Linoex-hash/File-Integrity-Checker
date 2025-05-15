@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a file integrity checker, written in Golang. This will hash a single file or files within a folder using SHA256, then store those entries in a user specified sqlite3 database file. This program can then use the database to see if those files were modified, potentially unknowingly. This helps ensure file integrity. 
+This is a file integrity checker, written in Golang. This will compute the SHA256 hash a single file or files within a folder, then store those hashes in a user specified sqlite3 database file. This program can then use the database to see if those files were modified, potentially unknowingly. This helps ensure file integrity. 
 
 ## How to Build
 
